@@ -1,0 +1,13 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Are you hotdog enough?</h1>
+        <form method="post" action="{{ url_for('upload') }}" enctype="multipart/form-data">
+            <input type="file" name="file1">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
+
+<!--posts to an api route on flask server-->
